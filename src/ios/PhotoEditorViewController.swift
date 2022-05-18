@@ -143,8 +143,6 @@ extension PhotoEditorViewController: ColorDelegate {
     func didSelectColor(color: UIColor) {
         if isDrawing {
             self.drawColor = color
-            activeTextView?.textColor = color
-            textColor = color
         } else if activeTextView != nil {
             activeTextView?.textColor = color
             textColor = color
