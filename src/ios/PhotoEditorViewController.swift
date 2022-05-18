@@ -56,7 +56,7 @@ import UIKit
     public var hiddenControls : [control] = []
     
     var stickersVCIsVisible = false
-    var drawColor: UIColor = UIColor.black
+    var drawColor: UIColor = UIColor.red //black
     var textColor: UIColor = UIColor.red
     var isDrawing: Bool = false
     var lastPoint: CGPoint!
