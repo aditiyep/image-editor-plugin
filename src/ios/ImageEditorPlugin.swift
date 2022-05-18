@@ -54,7 +54,7 @@ import UIKit
         photoEditor.photoEditorDelegate = self
         photoEditor.image = image
         //Colors for drawing and Text, If not set default values will be used
-        //photoEditor.colors = [.red, .blue, .green]
+        photoEditor.colors = [.red]//, .blue, .green]
         
         //Stickers that the user will choose from to add on the image
         for i in 0...10 {
